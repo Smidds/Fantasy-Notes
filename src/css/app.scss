@@ -1,1 +1,9 @@
-// app global css in SCSS form
+@font-face {
+  font-family: RobotoCondensed;
+  src: url(./fonts/customfont.woff);
+}
+
+// Use condensed roboto for headers
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'RobotoCondensed';
+}
